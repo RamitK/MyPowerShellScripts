@@ -3,19 +3,9 @@ Add-Type –Path "D:\Ramit\pnp\SharePointPnPPowerShell2016\2.24.1803.0\Microsoft
 Add-Type –Path "D:\Ramit\pnp\SharePointPnPPowerShell2016\2.24.1803.0\OfficeDevPnP.Core.dll"
 
 #$fileSW = New-Object System.IO.StreamWriter("D:\Ramit\pnp\PermissionFroGroups1.txt");
-
-#$fileSR = New-Object System.IO.StreamReader("C:\Users\ramit.kishore.saha\Desktop\Scripts\CSOM\PermissionForGroups\");
-
-
-
-    
-
-    
+#$fileSR = New-Object System.IO.StreamReader("C:\Users\ramit.kishore.saha\Desktop\Scripts\CSOM\PermissionForGroups\");   
 
 #Checking for the site collection
-
-
-
 function CheckPermissions($website)
 {
 
